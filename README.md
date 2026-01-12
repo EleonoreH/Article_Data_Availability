@@ -126,7 +126,7 @@ The dataset contains the following variables:
   Participant’s estimated time interval between the tone and the action.
 
 * **`IB`**
-  Intentional Binding measure derived from temporal estimation.
+  Intentional Binding calculated by substracting user estimation from real delay in millisecond ( IBestimUser - delayIB).
 
 * **`IB_zscore`**
   Z-scored Intentional Binding value, computed as:
